@@ -154,7 +154,30 @@
 
         </section>
 
-        <section></section>
+        <section id="form">
+
+            <div>
+                <h2>Contact us to share your experience</h2>
+                <p>Every moment of your life, whether good or bad, is a precious thing. Every aspect allows you to grow, to learn from your mistakes, and improve your daily life. Embrace your existence, share it with us.</p>
+            </div>
+
+            <form id="contact" action="/php/form.php" method="POST">
+
+                <label for="firstname"></label>
+                <input class="" type="text" id="firstname" name="firstname" placeholder="Firstname" required>
+                <label for="lastname"></label>
+                <input class="" type="text" id="lastname" name="lastname" placeholder="Lastname" required>
+                <label for="email"></label>
+                <input class="" type="text" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="message"></label>
+                <textarea class="" id="message" name="message" maxlength="750" placeholder="Share your experience here .." required></textarea>
+
+                <button>Send Message</button>
+
+            </form>
+
+        </section>
 
     </main>
 
