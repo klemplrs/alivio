@@ -1,0 +1,200 @@
+/* FEUILLE DE STYLE CSS 
+
+SECTION 1 _ HEADER
+SECTION 2 _ HOW IT WORKS
+SECTION 3 _ KAYLA SUCCESS
+SECTION 4 _ PRODUCT
+SECTION 5 _ FORM
+SECTION 6 _ FOOTER
+
+*/ 
+
+div {
+    border: 1px black solid;
+}
+
+section, header, footer{
+    border: 2px red solid;
+}
+
+
+html {
+    box-sizing: border-box ;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit ;
+}
+
+body {
+    font-family: 'Lato', sans-serif;    
+    font-style: normal;
+}
+
+h1, h2, h3, span {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.button {
+    background: #01996D;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.button:hover {
+    opacity: 70%;
+}
+
+/* SECTION 1 _ HEADER */
+
+.frame {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 85px;
+}
+
+nav {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #292929;
+}
+
+.link1 {
+    margin-right: 50px;
+}
+
+.link2 {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: 25px;
+}
+
+.button1 {
+    padding: 13px 50px;
+}
+
+.img-background {
+    background: url(/images/header/radu-florin1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+.title-header {
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 74px;
+    color: #01996D;
+
+    margin-top: 175px;
+    max-width: 440px;
+}
+
+.para-header {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    color: #484848;
+
+    min-height: 123px;
+    max-width: 420px;
+}
+
+.button2 {
+    margin: 18px 0 336px 0;
+    padding: 20px 50px;
+    width: 230px;
+}
+
+/* SECTION 2 _ HOS IT WORKS */
+
+
+
+
+
+/* SECTION 3 _ KAYLA SUCCESS */
+
+#kayla-success {
+    background: #245852;
+    height: 922px;
+}
+
+
+
+
+
+
+/* SECTION 5 _ FORM */
+
+#form {
+    background: linear-gradient(180deg, #5ca365b9 18.15%, rgba(255, 255, 255, 0.856) 66%), rgba(82, 180, 167, 0.671);
+
+    height: 300px;
+}
+
+
+
+/* SECTION 6 _ FOOTER */
+
+footer {
+    background: #245852;
+    height: 654px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile screens */
+
+@media all and (max-width: 767px) {
+    
+    .frame {
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+}
+
+
+
+
+
+
+/* Large desktops // min-width: 1600px */
+
+@media all and (min-width: 1600px) {
+
+    .title-header {
+        font-size: 65px;
+    }
+
+}
