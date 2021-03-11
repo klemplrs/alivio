@@ -62,7 +62,7 @@ a:link {
     justify-content: space-around;
     align-items: center;
 
-    height: 85px;
+    min-height: 85px;
 }
 
 nav {
@@ -125,17 +125,97 @@ nav {
     width: 230px;
 }
 
-/* SECTION 2 _ HOS IT WORKS */
+/* SECTION 2 _ HOW IT WORKS */
 
+#how-it-works {
+    margin-top: 100px;
+}
 
+.understand-release {
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 327px;
+}
 
+.col3 {
+    max-width: 580px;
+}
 
+.col4 {
+    max-width: 670px;    
+    align-self: center;
+}
+
+.para1 {
+    margin: 35px 0 0 0;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 157%;
+    color: #424242;
+}
+
+.understand-title {
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 157%;
+    color: #01996D;
+}
+
+.steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    min-height: 1059px;
+}
+
+.col {
+    flex-basis: 390px;
+}
+
+.col1 {
+    align-self: flex-end;
+}
+
+.col2 {
+    align-self: center;
+}
+
+span {
+    font-weight: normal;
+    font-size: 150px;
+    line-height: 150%;
+    color: rgba(1, 153, 109, 0.2);
+}
+
+.col-title {
+    margin-top: -94px;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 150%;
+    text-align: center;
+    color: black;
+}
+
+.col-para {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #424242;
+}
+
+.col-img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
 
 /* SECTION 3 _ KAYLA SUCCESS */
 
 #kayla-success {
     background: #245852;
-    height: 922px;
+    min-height: 922px;
+    margin-top: 50px;
 }
 
 
@@ -179,7 +259,11 @@ footer {
     .frame {
         flex-direction: column;
         flex-wrap: wrap;
-        height: auto;
+    }
+
+    .understand-release {
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 
 }
