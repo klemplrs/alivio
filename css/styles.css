@@ -265,7 +265,10 @@ span {
 
 /* SECTION 4 _ PRODUCT */
 
-
+#product {
+    min-height: 648px;
+    margin-top: 120px;
+}
 
 
 
@@ -273,8 +276,8 @@ span {
 
 #form {
     background: linear-gradient(180deg, #5ca365b9 18.15%, rgba(255, 255, 255, 0.856) 66%), rgba(82, 180, 167, 0.671);
-
-    height: 300px;
+    min-height: 922px;
+    margin-top: 168px;
 }
 
 
@@ -283,10 +286,30 @@ span {
 
 footer {
     background: #245852;
-    height: 654px;
+    min-height: 654px;
 }
 
+.title-footer {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 55px;
+    margin: 95px 0 0 225px;
+    color: #FFFFFF;
+}
 
+.nav-footer {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 0 225px;
+}
+
+.link2 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 60px;
+    color: #FFFFFF;
+}
 
 
 
@@ -302,6 +325,14 @@ footer {
     .understand-release {
         flex-direction: column;
         flex-wrap: wrap;
+    }
+
+    .title-footer {
+        margin-left: 125px;
+    }
+
+    .nav-footer {
+        margin-left: 125px;
     }
 }
 
