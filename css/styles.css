@@ -74,6 +74,7 @@ nav {
 
 .link1 {
     margin-right: 50px;
+    color: black;
 }
 
 .link2 {
@@ -81,6 +82,7 @@ nav {
     font-size: 20px;
     line-height: 24px;
     margin-right: 25px;
+    color: black;
 }
 
 .button1 {
@@ -106,7 +108,7 @@ nav {
     color: #01996D;
 
     margin-top: 175px;
-    max-width: 440px;
+    max-width: 450px;
 }
 
 .para-header {
@@ -213,11 +215,55 @@ span {
 /* SECTION 3 _ KAYLA SUCCESS */
 
 #kayla-success {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     background: #245852;
     min-height: 922px;
     margin-top: 50px;
 }
 
+.col1-kayla {
+    align-self: center;
+    max-width: 580px;
+    min-height: 352px;
+}
+
+.col2-kayla {
+    align-self: center;
+    max-width: 895px;
+}
+
+.title-kayla {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 157%;
+    text-align: center;
+    margin-top: 0;
+    color: #FFFFFF;
+}
+
+.para-kayla {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 157%;
+    text-align: center;
+    margin-bottom: 70px;    
+    color: #FFFFFF;
+}
+
+.button3 {
+    padding: 20px 50px;
+    margin-left: 168px;
+}
+
+.img-kayla {
+    width: 100%;
+    height: auto;
+    border-radius: 16.5px;
+}
+
+/* SECTION 4 _ PRODUCT */
 
 
 
@@ -244,15 +290,7 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-/* Mobile screens */
+/* MOBILE // max-width: 767px */
 
 @media all and (max-width: 767px) {
     
@@ -265,15 +303,11 @@ footer {
         flex-direction: column;
         flex-wrap: wrap;
     }
-
 }
 
+/* TABLET PORTRAIT // min-width: 768px and max-width: 959px */
 
-
-
-
-
-/* Large desktops // min-width: 1600px */
+/* LARGE DESKTOP // min-width: 1600px */
 
 @media all and (min-width: 1600px) {
 
