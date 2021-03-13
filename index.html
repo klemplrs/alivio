@@ -35,7 +35,7 @@
 
             <div>
 
-                <a class="link2" href="https://www.google.com" target="_blank">Sign In</a>
+                <a class="link-sign" href="https://www.google.com" target="_blank">Sign In</a>
                 <a class="button button1" href="https://www.google.com">Start Trial</a>
 
             </div>
@@ -160,26 +160,28 @@
 
         <section id="form">
 
-            <div>
-                <h2>Contact us to share your experience</h2>
-                <p>Every moment of your life, whether good or bad, is a precious thing. Every aspect allows you to grow, to learn from your mistakes, and improve your daily life. Embrace your existence, share it with us.</p>
+            <div class="form-col1">
+                <h2 class="form-title">Contact us to share your experience</h2>
+                <p class="form-para">Every moment of your life, whether good or bad, is a precious thing. Every aspect allows you to grow, to learn from your mistakes, and improve your daily life. Embrace your existence, share it with us.</p>
             </div>
 
-            <form id="contact" action="/php/form.php" method="POST">
+            <div class="form-col2">
+                <form id="contact" action="/php/form.php" method="POST">
 
-                <label for="firstname"></label>
-                <input class="" type="text" id="firstname" name="firstname" placeholder="Firstname" required>
-                <label for="lastname"></label>
-                <input class="" type="text" id="lastname" name="lastname" placeholder="Lastname" required>
-                <label for="email"></label>
-                <input class="" type="text" id="email" name="email" placeholder="Enter your email" required>
+                    <label for="firstname"></label>
+                    <input class="" type="text" id="firstname" name="firstname" placeholder="Firstname" required>
+                    <label for="lastname"></label>
+                    <input class="" type="text" id="lastname" name="lastname" placeholder="Lastname" required>
+                    <label for="email"></label>
+                    <input class="" type="text" id="email" name="email" placeholder="Enter your email" required>
 
-                <label for="message"></label>
-                <textarea class="" id="message" name="message" maxlength="750" placeholder="Share your experience here .." required></textarea>
+                    <label for="message"></label>
+                    <textarea class="" id="message" name="message" maxlength="750" placeholder="Share your experience here .." required></textarea>
 
-                <button>Send Message</button>
+                    <button>Send Message</button>
 
-            </form>
+                </form>
+            </div>
 
         </section>
 

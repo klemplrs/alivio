@@ -77,7 +77,7 @@ nav {
     color: black;
 }
 
-.link2 {
+.link-sign {
     font-weight: normal;
     font-size: 20px;
     line-height: 24px;
@@ -254,7 +254,7 @@ span {
 
 .button3 {
     padding: 20px 50px;
-    margin-left: 168px;
+    margin: 168px;
 }
 
 .img-kayla {
@@ -275,12 +275,83 @@ span {
 /* SECTION 5 _ FORM */
 
 #form {
-    background: linear-gradient(180deg, #5ca365b9 18.15%, rgba(255, 255, 255, 0.856) 66%), rgba(82, 180, 167, 0.671);
+    background: linear-gradient(180deg, #01996D, rgba(255, 255, 255, 0.685) 80%);
     min-height: 922px;
     margin-top: 168px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
+.form-col1 {
+    max-width: 800px;
+    min-height: 352px;    
+    align-self: center;
+}
 
+.form-col2 {
+    min-width: 40%;
+    align-self: center;
+}
+
+.form-title {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 157%;
+    text-align: center;
+    color: #3C3C3C;
+}
+
+.form-para {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 157%;
+    text-align: center;
+    color: #3C3C3C;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 25px;
+    padding-left: 20px;
+    min-height: 50px;
+}
+
+textarea {
+    resize: none;
+    min-height: 150px;
+    padding-left: 20px;
+}
+
+form button {
+    margin-top: 35px;
+    padding: 10px;
+    width: 125px;
+    align-self: center;
+    background: white;
+    border-radius: 10px;
+    border: 2px #01996D solid;
+}
+
+input::placeholder {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+textarea::placeholder {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 25px;
+    line-height: 35px;
+}
 
 /* SECTION 6 _ FOOTER */
 
@@ -325,6 +396,10 @@ footer {
     .understand-release {
         flex-direction: column;
         flex-wrap: wrap;
+    }
+
+    #form {
+        flex-direction: column;
     }
 
     .title-footer {
