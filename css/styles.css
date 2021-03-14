@@ -1,0 +1,656 @@
+/* FEUILLE DE STYLE CSS 
+
+SECTION 1 _ HEADER
+SECTION 2 _ HOW IT WORKS
+SECTION 3 _ KAYLA SUCCESS
+SECTION 4 _ PRODUCT
+SECTION 5 _ FORM
+SECTION 6 _ FOOTER
+
+*/ 
+
+/*  PLUS FA£CILE POUR MOI DE VISUALISER LES DIV OU SECTION !!!!
+
+div {
+    border: 1px black solid;
+}
+
+section, header, footer{
+    border: 2px red solid;
+}
+*/
+
+html {
+    box-sizing: border-box ;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit ;
+}
+
+body {
+    font-family: 'Lato', sans-serif;    
+    font-style: normal;
+}
+
+h1, h2, h3, span, ul {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.button {
+    background: #01996D;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.button:hover {
+    opacity: 70%;
+}
+
+/* SECTION 1 _ HEADER */
+
+.frame {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    min-height: 85px;
+}
+
+nav {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #292929;
+}
+
+.link1 {
+    margin-right: 50px;
+    color: black;
+}
+
+.link-sign {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: 25px;
+    color: black;
+}
+
+.button1 {
+    padding: 13px 50px;
+}
+
+.img-background {
+    background: url(/images/header/radu-florin1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+.title-header {
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 74px;
+    color: #01996D;
+
+    margin-top: 175px;
+    max-width: 450px;
+}
+
+.para-header {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    color: black;
+
+    min-height: 123px;
+    max-width: 420px;
+}
+
+.button2 {
+    margin: 18px 0 336px 0;
+    padding: 20px 50px;
+    width: 230px;
+}
+
+/* SECTION 2 _ HOW IT WORKS */
+
+#how-it-works {
+    margin-top: 100px;
+}
+
+.understand-release {
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 327px;
+}
+
+.col3 {
+    max-width: 580px;
+}
+
+.col4 {
+    max-width: 670px;    
+    align-self: center;
+}
+
+.para1 {
+    margin: 35px 0 0 0;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 157%;
+    color: #424242;
+}
+
+.understand-title {
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 157%;
+    color: #01996D;
+}
+
+.steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    min-height: 1059px;
+}
+
+.col {
+    flex-basis: 390px;
+}
+
+.col1 {
+    align-self: flex-end;
+}
+
+.col2 {
+    align-self: center;
+}
+
+span {
+    font-weight: normal;
+    font-size: 150px;
+    line-height: 150%;
+    color: rgba(1, 153, 109, 0.2);
+}
+
+.col-title {
+    margin-top: -94px;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 150%;
+    text-align: center;
+    color: black;
+}
+
+.col-para {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #424242;
+}
+
+.col-img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+/* SECTION 3 _ KAYLA SUCCESS */
+
+#kayla-success {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background: #245852;
+    min-height: 922px;
+    margin-top: 50px;
+}
+
+.col1-kayla {
+    align-self: center;
+    max-width: 580px;
+    min-height: 352px;
+}
+
+.col2-kayla {
+    align-self: center;
+    max-width: 895px;
+}
+
+.title-kayla {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 157%;
+    text-align: center;
+    margin-top: 0;
+    color: #FFFFFF;
+}
+
+.para-kayla {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 157%;
+    text-align: center;
+    margin-bottom: 70px;    
+    color: #FFFFFF;
+}
+
+.button3 {
+    padding: 20px 50px;
+    margin: 168px;
+}
+
+.img-kayla {
+    width: 100%;
+    height: auto;
+    border-radius: 16.5px;
+}
+
+/* SECTION 4 _ PRODUCT */
+
+#product {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 648px;
+    margin-top: 120px;
+}
+
+.product-col1 {
+    align-self: flex-start;
+    background: rgba(1, 153, 109, 0.2);
+    border-radius: 18.1px;
+    width: 638px;
+    min-height: 573px;   
+}
+
+.img-product {
+    padding-left: 90px;
+}
+
+.card {
+    position: absolute;
+    text-align: center;
+    background: #FFFFFF;
+    filter: drop-shadow(0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25));
+    border-radius: 3.7px;
+    width: 296px;
+    margin: -180px 0 0 -75px;
+}
+
+.card h2 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 23px;
+    margin: 0;
+}
+
+.card hr {
+    width: 110.49px;
+    border: 0.745942px solid #000000;
+}
+
+.card-img {
+    background: rgba(1, 153, 109, 0.2);
+    border-radius: 50%;
+}
+
+.img-title {
+    font-weight: normal;
+    font-size: 11.9351px;
+    line-height: 157%;
+    color: #000000;
+    margin: 0;
+}
+
+.card ul {
+    font-weight: bold;
+    font-size: 15.9292px;
+    line-height: 157%;
+    color: #000000;
+    text-align: left;
+    margin-left: 20px;
+}
+
+ul li {
+    font-family: 'Lato';
+    font-weight: normal;
+    font-size: 10.6195px;
+    line-height: 157%;
+    margin-top: 16px;
+    color: #000000;
+}
+
+.product-col2 {
+    max-width: 584px;
+    margin-left: 88px;
+}
+
+.para1-product {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 157%;
+    margin: 0;
+    color: #424242;
+}
+
+.title-product {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 157%;
+    margin: 10px 0 0 0;
+    color: #01996D;
+}
+
+.para2-product {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    margin: 20px 0 60px 0;
+    max-width: 530px;
+    color: #484848;
+}
+
+/* SECTION 5 _ FORM */
+
+#form {
+    background: linear-gradient(180deg, #01996D, rgba(255, 255, 255, 0.685) 80%);
+    min-height: 922px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.form-col1 {
+    max-width: 800px;
+    min-height: 352px;    
+    align-self: center;
+}
+
+.form-col2 {
+    min-width: 40%;
+    align-self: center;
+}
+
+.form-title {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 157%;
+    text-align: center;
+    color: #3C3C3C;
+}
+
+.form-para {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 157%;
+    text-align: center;
+    color: #3C3C3C;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 25px;
+    padding-left: 20px;
+    min-height: 50px;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+    min-height: 150px;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 35px;
+    padding: 10px;
+    width: 125px;
+    align-self: center;
+    background: white;
+    border-radius: 10px;
+    border: 2px #01996D solid;
+}
+
+form button:hover {
+    background: #01996e67;
+}
+
+input::placeholder {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+textarea::placeholder {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+/* SECTION 6 _ FOOTER */
+
+footer {
+    background: #245852;
+    min-height: 654px;
+}
+
+.title-footer {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 55px;
+    margin: 95px 0 0 225px;
+    padding-top: 100px;
+    color: #FFFFFF;
+}
+
+.nav-footer {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 0 225px;
+}
+
+.link2 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 60px;
+    color: #FFFFFF;
+}
+
+
+/* __________
+_____________
+ADJUSTMENTS FOR OTHER DEVICES 
+_____________
+___________*/
+
+
+/* MOBILE -- iPAD // max-width: 768px */
+
+@media screen and (max-width: 768px) {
+    
+    header {
+        padding: 10px;
+    }
+
+    .frame {
+        flex-direction: column;
+        justify-content: space-evenly;
+        min-height: 175px;
+    }
+
+    .frame nav {
+        text-align: center;
+    }
+
+    .link1 {
+        margin-left: 43px;
+    }
+
+    .img-background {
+        padding-left: 0;
+    }
+
+    .title-header {
+        margin-top: 175px;
+    }
+
+    .img-background a {
+        margin-top: 20px;
+        margin-bottom: 300px;
+    }
+
+    /* SECTION _ HOW IT WORKS */
+
+    #how-it-works {
+        padding: 10px;
+    }
+
+    .understand-release {
+        flex-direction: column;
+    }
+
+    .col3 {
+        align-self: center;
+    }
+
+    /* SECTION _ KAYLA */
+
+    .col1-kayla {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button3 {
+        margin: 0;
+        align-self: center;
+    }
+
+    /* SECTION _ PRODUCT */
+
+    .product-col1 {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        min-height: auto;
+        background: none;
+    }
+
+    .img-product {
+        padding-left: 0;
+        background: rgba(1, 153, 109, 0.2);
+        border-radius: 18.1px;
+    }
+
+    .card {
+        position: relative;
+        align-self: center;
+        margin: 0;
+        margin-top: 15px;
+    }
+
+    .product-col2 {
+        margin-top: 10px;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .para2-product {
+        max-width: none;
+    }
+
+    .button2 {
+        margin: 0;
+    }
+
+    .button-align {
+        align-self: center;
+    }
+
+    /* SECTION _ FORM */
+
+    #form {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .form-col2 {
+        margin-top: 20px;
+    }
+
+    /* SECTION _ FOOTER */ 
+
+    .title-footer {
+        margin-left: 125px;
+    }
+
+    .nav-footer {
+        margin-left: 125px;
+    }
+}
+
+
+/* LARGER TABLET -- iPAD PRO -- SMALL DESKTOP / PORTRAIT or LANDSCAPE // min-width: 769px and max-width: 1326//1359px */
+
+@media screen and (min-width: 769px) and (max-width: 1325px) {
+
+    .product-col2 {
+        margin-top: 100px;
+    }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1359px) {
+    
+    .frame {
+        min-height: 125px;
+    }
+
+    .understand-release div {
+        padding: 30px;
+    }
+
+}
+
+
+/* LARGE DESKTOP // min-width: 1600px */
+
+@media screen and (min-width: 1600px) {
+
+    .title-header {
+        font-size: 65px;
+    }
+
+}
