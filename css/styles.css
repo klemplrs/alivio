@@ -316,27 +316,28 @@ span {
 
 .img-title {
     font-weight: normal;
-    font-size: 11.9351px;
+    font-size: 12px;
     line-height: 157%;
     color: #000000;
     margin: 0;
 }
 
-.card ul {
+.card p {
     font-weight: bold;
-    font-size: 15.9292px;
+    font-size: 16px;
     line-height: 157%;
     color: #000000;
-    text-align: left;
-    margin-left: 20px;
+    text-align: center;
 }
 
 ul li {
     font-family: 'Lato';
     font-weight: normal;
-    font-size: 10.6195px;
+    font-size: 10.6px;
     line-height: 157%;
     margin-top: 16px;
+    text-align: left;
+    margin-left: 45px;
     color: #000000;
 }
 
@@ -398,6 +399,7 @@ ul li {
     line-height: 157%;
     text-align: center;
     color: #3C3C3C;
+    margin-top: 0;
 }
 
 .form-para {
@@ -425,6 +427,7 @@ textarea {
     min-height: 150px;
     padding-left: 20px;
     border-radius: 5px;
+    border: darkgrey 1px solid;
 }
 
 form button {
@@ -435,6 +438,7 @@ form button {
     background: white;
     border-radius: 10px;
     border: 2px #01996D solid;
+    font-weight: bold;
 }
 
 form button:hover {
