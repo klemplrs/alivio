@@ -9,7 +9,7 @@ SECTION 6 _ FOOTER
 
 */ 
 
-/*  PLUS FA£CILE POUR MOI DE VISUALISER LES DIV OU SECTION !!!!
+/*  PLUS FACILE POUR MOI DE VISUALISER LES DIV OU SECTION !!!!
 
 div {
     border: 1px black solid;
@@ -47,9 +47,7 @@ a:link {
     background: #01996D;
     border-radius: 4px;
     color: #FFFFFF;
-    font-weight: 400;
     font-size: 20px;
-    line-height: 25px;
 }
 
 .button:hover {
@@ -63,14 +61,11 @@ a:link {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-
     min-height: 85px;
 }
 
 nav {
-    font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
     color: #292929;
 }
 
@@ -80,9 +75,7 @@ nav {
 }
 
 .link-sign {
-    font-weight: normal;
     font-size: 20px;
-    line-height: 24px;
     margin-right: 25px;
     color: black;
 }
@@ -104,21 +97,17 @@ nav {
 }
 
 .title-header {
-    font-weight: bold;
     font-size: 55px;
     line-height: 74px;
     color: #01996D;
-
     margin-top: 175px;
     max-width: 450px;
 }
 
 .para-header {
-    font-weight: normal;
     font-size: 20px;
     line-height: 31px;
     color: black;
-
     min-height: 123px;
     max-width: 420px;
 }
@@ -160,7 +149,6 @@ nav {
 
 .understand-title {
     margin-top: 0;
-    font-weight: bold;
     font-size: 50px;
     line-height: 157%;
     color: #01996D;
@@ -186,7 +174,6 @@ nav {
 }
 
 span {
-    font-weight: normal;
     font-size: 150px;
     line-height: 150%;
     color: rgba(1, 153, 109, 0.2);
@@ -194,7 +181,6 @@ span {
 
 .col-title {
     margin-top: -94px;
-    font-weight: bold;
     font-size: 30px;
     line-height: 150%;
     text-align: center;
@@ -202,7 +188,6 @@ span {
 }
 
 .col-para {
-    font-weight: 500;
     font-size: 20px;
     line-height: 150%;
     color: #424242;
@@ -237,7 +222,6 @@ span {
 }
 
 .title-kayla {
-    font-weight: bold;
     font-size: 50px;
     line-height: 157%;
     text-align: center;
@@ -246,7 +230,6 @@ span {
 }
 
 .para-kayla {
-    font-weight: 500;
     font-size: 25px;
     line-height: 157%;
     text-align: center;
@@ -299,7 +282,6 @@ span {
 
 .card h2 {
     font-size: 14px;
-    font-weight: 600;
     line-height: 23px;
     margin: 0;
 }
@@ -332,7 +314,6 @@ span {
 
 ul li {
     font-family: 'Lato';
-    font-weight: normal;
     font-size: 10.6px;
     line-height: 157%;
     margin-top: 16px;
@@ -355,7 +336,6 @@ ul li {
 }
 
 .title-product {
-    font-weight: bold;
     font-size: 50px;
     line-height: 157%;
     margin: 10px 0 0 0;
@@ -363,7 +343,6 @@ ul li {
 }
 
 .para2-product {
-    font-weight: normal;
     font-size: 20px;
     line-height: 31px;
     margin: 20px 0 60px 0;
@@ -394,7 +373,6 @@ ul li {
 }
 
 .form-title {
-    font-weight: bold;
     font-size: 50px;
     line-height: 157%;
     text-align: center;
@@ -403,7 +381,6 @@ ul li {
 }
 
 .form-para {
-    font-weight: 500;
     font-size: 25px;
     line-height: 157%;
     text-align: center;
@@ -447,7 +424,6 @@ form button:hover {
 
 input::placeholder {
     font-family: 'Lato';
-    font-style: normal;
     font-weight: lighter;
     font-size: 25px;
     line-height: 35px;
@@ -455,7 +431,6 @@ input::placeholder {
 
 textarea::placeholder {
     font-family: 'Lato';
-    font-style: normal;
     font-weight: lighter;
     font-size: 25px;
     line-height: 35px;
@@ -469,7 +444,6 @@ footer {
 }
 
 .title-footer {
-    font-weight: 900;
     font-size: 40px;
     line-height: 55px;
     margin: 95px 0 0 225px;
